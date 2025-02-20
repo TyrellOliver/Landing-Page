@@ -7,10 +7,10 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <NavBar/>
+        {/* <NavBar/> */}
         <main>
           <Routes>
-            {/* <Route path="/" element={<Home/>}/> */}
+            <Route path="/" element={<Home/>}/>
           </Routes>
         </main>
       </Router>
